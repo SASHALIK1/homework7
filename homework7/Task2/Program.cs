@@ -1,19 +1,3 @@
-﻿int Add(int operand1, int operand2)
-{
-    return operand1 + operand2;
-}
-int Sub(int operand1, int operand2)
-{
-    return operand1 - operand2;
-}
-int Mul(int operand1, int operand2)
-{
-    return operand1 * operand2;
-}
-string Div(int operand1, int operand2)
-{
-    return operand2 == 0 ? "Не можна дiлити на нуль": ((float)operand1 / operand2).ToString();
-}
 while (true)
 {
     Console.WriteLine("Введiть знак арефметичної операцiї або ! щоб вийти");
